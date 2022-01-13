@@ -98,8 +98,10 @@ def printSudoku(board):
             else:
                 print(str(board[i][j]) + " ", end="")
 
-
+print("Board to Solve:")
 printSudoku(Board)
-print("/") # Divides the two boards for a simpler visual
+print("////////////") # Divides the two boards for a simpler visual
+print("Proposed Solution:")
+print("////////////")
 sudokuSolver(Board)
 printSudoku(Board)
